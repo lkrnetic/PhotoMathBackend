@@ -1,1 +1,1 @@
-web: gunicorn PhotoMathBackend:PhotoMathBackend
+web: gunicorn PhotoMathBackend:app

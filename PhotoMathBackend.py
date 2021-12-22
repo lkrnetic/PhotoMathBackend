@@ -10,5 +10,3 @@ def handle_request():
     filename = secure_filename(file.filename)
     file.save(os.path.join("uploads/", filename))
     return "Image Uploaded Successfully"
-
-app.run(host="0.0.0.0", port=port)
